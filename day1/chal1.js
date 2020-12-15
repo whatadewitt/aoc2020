@@ -5,7 +5,7 @@ async function solve(result) {
 
   for (let i = 0; i < data.length; i++) {
     const n = data[i];
-    const x = data.find((j) => j == 2020 - n);
+    const x = data.find((j) => j == result - n);
 
     if (x) {
       console.log(x, n);
